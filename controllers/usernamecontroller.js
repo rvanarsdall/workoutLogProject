@@ -32,7 +32,7 @@ router.post('/login', (req, res) => {
     })
     .then(function loginSuccess(username) {
         if(username) {
-            bcrypt.compare(req.body.username.passwordhash, username.passwordhash, function (err, matches) {
+            bcrypt.compare(req.body.passwordhash, username.passwordhash, function (err, matches) {
                 if (matches) {
                     let token = jwt.sign({id: username.id}, process.env.JWT_SECRET, {expiresIn: 60 * 60 * 24})
                     res.status(200).json({
