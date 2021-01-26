@@ -3,12 +3,14 @@
 
 ![](images/Username_Login.JPG)
 
-![](images/)
+![](images/Log_Create_New.JPG)
 
-![](images/)
+![](images/Log_Update_by_ID.JPG)
 
-![](images/)
+![](images/Log_Get_by_ID.JPG)
 
-![](images/)
+![](images/Log_Get_all_by_individual.JPG)
 
-![](images/)
+![](images/Log_Delete.JPG)
+
+
