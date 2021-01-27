@@ -8,7 +8,7 @@ let username = require('./controllers/usernamecontroller');
 
 sequelize.sync();
 
-// app.use(require('/middleware/headers'));
+app.use(require('./middleware/headers'));
 
 app.use(express.json());
 
